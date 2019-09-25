@@ -1,0 +1,21 @@
+#include <cstdlib>
+#include <iostream>
+#include <cmath>
+using namespace std;
+float djeljenje (float a, float b) {
+      float c=a/b;
+      return c;
+      }
+      int main ()
+      {float a;
+      float b;
+      float rezultat;
+      cout<<"Unesite 2 broja koja zelite djeliti ";
+      cin>>a;
+      cin>>b;
+      
+      rezultat=djeljenje(a,b);
+      cout<<rezultat;
+      system ("PAUSE");
+      }
+      
